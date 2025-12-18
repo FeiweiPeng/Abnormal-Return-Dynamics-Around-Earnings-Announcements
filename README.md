@@ -118,9 +118,9 @@ The program provides a **menu-driven interface** that allows users to run the an
 ---
 
 ## Build and Run
-make
-./main
-Use the interactive menu to load data, query stocks, view group statistics, and generate CAAR plots.
+- make
+- ./main
+- Use the interactive menu to load data, query stocks, view group statistics, and generate CAAR plots.
 
 ---
 
