@@ -25,16 +25,12 @@ We estimate **Average Abnormal Returns (AAR)** and **Cumulative Average Abnormal
 - For each stock, **2N + 1** adjusted close prices are retrieved around the event (user-selected \(N \in [30, 60]\)).
 - Stock log returns are computed as:
 
-\[
-R_{it} = \log\left(\frac{P_t}{P_{t-1}}\right)
-\]
+R_it = log(P_t / P_{t-1})
 
 - Benchmark returns \(R_{mt}\) are computed from IWV on the same trading days.
 - **Abnormal return** is defined as:
 
-\[
-AR_{it} = R_{it} - R_{mt}
-\]
+AR_it = R_it - R_mt
 
 ---
 
@@ -44,15 +40,11 @@ AR_{it} = R_{it} - R_{mt}
 - Compute abnormal returns for each stock.
 - Average across stocks to obtain daily AAR:
 
-\[
-AAR_t = \frac{1}{M} \sum_{i=1}^{M} AR_{it}, \quad M = 30
-\]
+AAR_t = (1 / M) * sum_{i=1}^M AR_it,  M = 30
 
 - Cumulate AAR over time to form CAAR:
 
-\[
-CAAR_T = \sum_t AAR_t
-\]
+CAAR_T = sum_t AAR_t
 
 ---
 
