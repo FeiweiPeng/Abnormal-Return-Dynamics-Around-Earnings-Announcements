@@ -1,0 +1,11 @@
+# API keys / secrets
+api_token.txt
+*.env
+*.key
+
+# macOS junk
+.DS_Store
+
+# build artifacts
+*.o
+main
