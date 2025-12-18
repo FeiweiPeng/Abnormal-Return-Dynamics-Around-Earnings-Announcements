@@ -3,7 +3,7 @@
 
 ## Overview
 
-This project builds a **sector-neutral event study** on Russell 3000 stocks to measure how prices react around **Q1 2025 earnings announcements**. Stocks are classified into **Beat / Meet / Miss** groups using a within-sector ranking approach, and their performance is evaluated relative to **IWV (Russell 3000 ETF)** as the market benchmark.
+This project builds a **sector-neutral event study** on Russell 3000 stocks to measure how prices react around **earnings announcements**. Stocks are classified into **Beat / Meet / Miss** groups using a within-sector ranking approach, and their performance is evaluated relative to **IWV (Russell 3000 ETF)** as the market benchmark.
 
 We estimate **Average Abnormal Returns (AAR)** and **Cumulative Average Abnormal Returns (CAAR)** using a **bootstrap-based resampling framework**, allowing us to assess both expected effects and statistical dispersion.
 
