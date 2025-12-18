@@ -1,4 +1,5 @@
-# Stock Return Event Study with Bootstrap Analysis
+# Abnormal Return Dynamics Analysis Around Earnings Announcements
+
 
 ## Overview
 
